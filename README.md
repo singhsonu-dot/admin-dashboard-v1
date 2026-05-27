@@ -1,16 +1,40 @@
-# React + Vite
+# Admin Dashboard V1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A functional frontend React-based admin dashboard that consumes
+user data from the JSONplaceholder API. 
 
-Currently, two official plugins are available:
+key features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Navbar with profile, notification and logout sections. Responsive
+  spacing and a functional logout flow
 
-## React Compiler
+- Active sidebar links with active pages highlight, hover effect and
+  NavLinks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design (mobile & desktop) with vanilla CSS
 
-## Expanding the ESLint configuration
+- Lighthouse optimized (Performance, Accessibilty, Best Practices & SEO)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Loading and Error state handling using custom hooks 
+
+- Error UI polish with centered message, retry button
+
+- Protected Dashboard Access
+
+- User management Table with delete actions and Toast Notifications 
+
+# Tech stack:
+
+- React
+
+- Vite
+
+- React Router
+
+- Vanilla CSS
+
+# Project purpose:
+
+To practice production-style frontend development concepts including
+Routing, Protected Pages, Custom Hooks, API handling, responsive layouts,
+and user management
